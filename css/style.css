@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+img{
+    width: 100%;
+}
+
+header{
+    background-image: url('../img/fond.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    background-color: rgb(255, 255, 130);
+    height: 15vh;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.logoBatmanNav{
+    width: 10%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+/* MAIN */
+
+main{
+    background-color: rgb(115, 147, 255);
+}
+
+h1{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+    /* Films */
+
+h2{
+    color: yellow;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#best{
+text-align: center;
+}
+
+.batmanImagesLarge{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+
+#oldSchool{
+    text-align: start;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#oldSchool h2{
+    margin-left: 150px;
+
+}
+
+.batmanImagesSmall{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 25%;
+}
+
+.batmanImagesSmall img{
+    margin-right: 50px;
+}
+
+#noWay{
+    text-align: end;
+}
+
+#noWay h2{
+    margin-right: 150px;
+}
+
+    /* Series */
+
+.titleContainers{
+    margin-top: 30px;
+    background-color: rgb(255, 255, 130);
+    height: 15vh;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+#seriesTitle{
+    color: black;
+    
+}
+
+.seriesContainer{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.seriesImagesContainer{
+    width: 50%;
+    margin-right: 40px;
+}
+
+.seriesH3{
+    color: yellow;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+.seriesText{
+    color: white;
+    width: 80%;
+}
+
+.seriesFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+    /* AUTRES */
+
+#autresContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.autresImagesContainer{
+    display: flex;
+    justify-content: center;
+
+    width: 60%;
+    margin: 10px 0;
+}
+
+#autresTitle{
+    color: black;
+}
+
+.autresH3{
+    color: yellow;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.textAutres{
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 20vh;
+}
